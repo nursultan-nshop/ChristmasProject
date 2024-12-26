@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.page1{
+    width: 100%;
+    height: 600px;
+    background-image: url('/images/backPage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.orta{
+    text-align: center;
+    margin-top: 80px;
+}
+.topic{
+    color: white;
+    border-radius: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.topic2 {
+    color: white;
+    
+}
+
+.topic3 {
+     color: white;
+}
+
+header{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.knopkalar{
+    width: 400px;
+}
+
+.knopkalar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.knopkalar ul li{
+    list-style-type: none;  
+    color: white;
+}
+
+.signs{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotip{
+    width: 120px;
+    height: 70px;
+}
+.signs-img{
+    width: 20px;
+}
+
+
+.hover-1:hover{
+    color: blue;
+}
+.hover-2:hover{
+    color: blue;
+}
+.hover-3:hover{
+    color: blue;
+}
+.hover-4:hover{
+    color: blue;
+}
+.hover-5:hover{
+    color: blue;
+}
+.hover-6:hover{
+    color: blue;
+}
+
+
+
+.suret-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.suret-div{
+    margin: 20px;
+    border: rgb(244, 7, 7) solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-img{
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+del{
+    color: red;
+    margin-right: 20px  ;
+}   
+.timer {
+    text-align: center;
+    background-color:unset;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+
+
+.ddd{
+    color: green;
+}
